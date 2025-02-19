@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spatrify.pat</title>
+    
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <section class="container">
+     
+      <div class="main_area">
+        <header class="header">Spatrify.pat</header>
+        
+        
+        <!--Songs list na d ma display-->
+        <div class="song_list">
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Yell.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Nag kita muli</h1>
+              <button class="play" onclick="playaudio(1)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Chard.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- What if reply cession</h1>
+              <button class="play" onclick="playaudio(2)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Lay.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Mix Signal</h1>
+              <button class="play" onclick="playaudio(3)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Whing.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Assuming</h1>
+              <button class="play" onclick="playaudio(4)">Play</button>
+            </div>
+          </div>
+          <br />
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Bert.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Waiting cession</h1>
+              <button class="play" onclick="playaudio(5)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Son.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- What if di sya seryuso sayo</h1>
+              <button class="play" onclick="playaudio(6)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/One.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Gulong gulo</h1>
+              <button class="play" onclick="playaudio(7)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Two.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Will Talks- Willing to Wait ba?</h1>
+              <button class="play" onclick="playaudio(8)">Play</button>
+            </div>
+          </div>
+        </div>
+        <!-- ends-->
+      </div>
+      
+
+      
+      
+      
+      
+      
+      
+      <!--First song nga na code nd sa js-->
+      <div class="side_content">
+        <div class="playing">Playing Now</div>
+        <div class="side_thumbnail">
+          <img
+            id="image_thumbnail"
+            src="./thumbnails/Chard.jpg"
+          />
+        </div>
+        <audio
+          id="audio_play"
+          class="audio_play"
+          src="./Audio/what if 1.mp3"
+          controls
+        ></audio>
+        <h1 id="audio_player_title">Will Talks- What if reply cession</h1>
+      </div>
+      <!-- ends-->
+    </section>
+
+    <!-- js file-->
+    <script src="./index.js"></script>
+  </body>
+</html>
